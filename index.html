@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Gourmet Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+   
+    <div class="container">
+        <script type="module" src="https://unpkg.com/@splinetool/viewer@0.9.496/build/spline-viewer.js"></script>
+        <spline-viewer url="https://prod.spline.design/JHDCjDlbW9sPOHf7/scene.splinecode"></spline-viewer>
+        <h1>The Gourmet Recipe</h1>
+        <input type="text" id="ingredientInput" placeholder="Please enter ingredients...">
+        <button onclick="searchRecipes()">Search</button>
+
+        <div id="recipeList" class="recipe-list"></div>
+        <div id="recipeDetails" class="recipe-details"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
